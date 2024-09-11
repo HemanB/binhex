@@ -1,0 +1,21 @@
+{
+  "test_dir": "tests",
+  "mode": "exe",
+  "test_suite_names": ["convert"],
+  "non_zero_exit_status_penalty": 0.75,
+  "memory_penalty": 0.5,
+  "test_suites": {
+    "convert": [
+      { "desc": "0",  "args": ["-b"],  "diff": "normal", "infile": "convert_input_0.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "1",  "args": ["-b"],  "diff": "normal", "infile": "convert_input_1.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "2",  "args": ["-b"],  "diff": "normal", "infile": "convert_input_2.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "3",  "args": ["-b"],  "diff": "normal", "infile": "convert_input_3.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "4",  "args": ["-b"],  "diff": "normal", "infile": "convert_input_4.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "5",  "args": ["-h"],  "diff": "normal", "infile": "convert_input_5.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "6",  "args": ["-h"],  "diff": "normal", "infile": "convert_input_6.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "7",  "args": ["-h"],  "diff": "normal", "infile": "convert_input_7.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "8",  "args": ["-h"],  "diff": "normal", "infile": "convert_input_8.txt", "outfile": "", "valgrind": false, "points": 10.0 },
+      { "desc": "9",  "args": ["-h"],  "diff": "normal", "infile": "convert_input_9.txt", "outfile": "", "valgrind": false, "points": 10.0 }
+    ]
+  }
+}
