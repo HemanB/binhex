@@ -1,4 +1,4 @@
-# Lab 03
+# BinHex
 
 This lab is similar to the encoder/decoder ring in that you write procedures to
 translate input lines one at a time for output.  As with the ring program,
@@ -8,7 +8,6 @@ strings of digits in binary and hexadecimal, in both directions.
 
 ## Objectives
 
-- Get familiar with representations of unsigned (positive) integers.
 - Understand hexadecimal (base 16) and binary (base 2) number systems.
 - Gain experience with the C `switch` statement (if you choose to use it).
 
@@ -147,12 +146,11 @@ for error cases.
 
    * `convert_student.c`
 
-   In future labs, you will be responsible for typing the commands to add,
-   commit, and push your files. We still provide you with some command for this
-   lab.
+   Type the commands to add,
+   commit, and push your files.   Something like this:
 
    ```bash
-   git add convert_student.c
+   git add convert_student.c statement.txt
    git commit -m "Finished with the lab."
    git push
    ```
