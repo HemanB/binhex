@@ -1,0 +1,3 @@
+referenced google to understand binary and hexadecimal.
+Utilized chatGPT to understand "?" use in C language
+Obtained guidance and instruction from TAs
